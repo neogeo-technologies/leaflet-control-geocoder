@@ -65,6 +65,10 @@ export var Nominatim = L.Class.extend({
     );
   },
 
+  suggest: function (query, cb, context) {
+        return this.geocode(query, cb, context);
+    },
+
   reverse: function(location, scale, cb, context) {
     getJSON(
       this.options.serviceUrl + 'reverse',

@@ -11,4 +11,5 @@ export * from './open-location-code';
 export * from './opencage';
 export * from './pelias';
 export * from './photon';
+export * from './addok';
 export * from './what3words';
